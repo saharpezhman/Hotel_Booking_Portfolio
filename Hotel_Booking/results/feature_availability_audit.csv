@@ -1,0 +1,20 @@
+﻿feature,exists_in_dataset,missing_count,missing_percent,unique_values,sample_values,initial_timing_assessment,timing_risk,assessment_reason,preliminary_recommendation,timing_verified_from_source
+hotel,True,0,0.0,2,Resort Hotel | City Hotel,Likely available,Low,Hotel type is normally known when a booking is created.,Keep provisionally,False
+lead_time,True,0,0.0,479,342 | 737 | 7 | 13 | 14,Likely available,Low,Can be calculated from booking date and arrival date.,Keep provisionally,False
+stays_in_weekend_nights,True,0,0.0,17,0 | 1 | 2 | 4 | 3,Likely available,Low,Planned weekend stay length is normally provided at booking.,Keep provisionally,False
+stays_in_week_nights,True,0,0.0,35,0 | 1 | 2 | 3 | 4,Likely available,Low,Planned weekday stay length is normally provided at booking.,Keep provisionally,False
+adults,True,0,0.0,14,2 | 1 | 3 | 4 | 40,Likely available,Low,Number of adults is normally supplied with the reservation.,Keep provisionally,False
+children,True,4,0.0,5,0.0 | 1.0 | 2.0 | 10.0 | 3.0,Verify,Medium,Confirm when child counts are entered or updated.,Verify booking-time availability,False
+babies,True,0,0.0,5,0 | 1 | 2 | 10 | 9,Likely available,Low,Baby count is normally part of guest details.,Keep provisionally,False
+is_repeated_guest,True,0,0.0,2,0 | 1,Verify,Medium,Requires a reliable customer history available at prediction time.,Verify historical calculation,False
+previous_cancellations,True,0,0.0,15,0 | 1 | 2 | 3 | 26,Verify,Medium,Must include only cancellations before the current booking.,Verify historical calculation,False
+previous_bookings_not_canceled,True,0,0.0,73,0 | 1 | 2 | 3 | 4,Verify,Medium,Must count only earlier bookings known at prediction time.,Verify historical calculation,False
+adr,True,0,0.0,8879,0.0 | 75.0 | 98.0 | 107.0 | 103.0,Verify,High,The dataset's rate may not exactly represent the rate known at initial booking.,Verify timing or exclude in a strict early model,False
+meal,True,0,0.0,5,BB | FB | HB | SC | Undefined,Likely available,Low,Meal plan is generally selected during booking.,Keep provisionally,False
+country,True,488,0.41,177,PRT | GBR | USA | ESP | IRL,Verify,Medium,May be missing or populated later; confirm the booking workflow.,Verify booking-time availability,False
+market_segment,True,0,0.0,8,Direct | Corporate | Online TA | Offline TA/TO | Complementary,Verify,Medium,Usually associated with the booking source; confirm when recorded.,Verify booking-time availability,False
+distribution_channel,True,0,0.0,5,Direct | Corporate | TA/TO | Undefined | GDS,Verify,Medium,Usually associated with the booking channel; confirm when recorded.,Verify booking-time availability,False
+reserved_room_type,True,0,0.0,10,C | A | D | E | G,Likely available,Low,Reserved room type is generally known when booking.,Keep provisionally,False
+deposit_type,True,0,0.0,3,No Deposit | Refundable | Non Refund,Verify,Medium,Confirm whether the deposit policy is known and stable at prediction time.,Verify booking-time availability,False
+customer_type,True,0,0.0,4,Transient | Contract | Transient-Party | Group,Verify,Medium,Confirm whether the customer classification is assigned at booking.,Verify booking-time availability,False
+agent,True,16340,13.69,333,304.0 | 240.0 | 303.0 | 15.0 | 241.0,Verify,Medium,Agent ID may be absent or assigned after a booking is created.,Verify booking-time availability,False

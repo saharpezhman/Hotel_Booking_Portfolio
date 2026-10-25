@@ -1,0 +1,13 @@
+hotel,lead_time_group,total_bookings,canceled_bookings,cancellation_rate
+City Hotel,0-7 days,9895,1039,10.5
+City Hotel,8-30 days,10530,2933,27.85
+City Hotel,31-90 days,15177,5025,33.11
+City Hotel,91-180 days,11573,4245,36.68
+City Hotel,181-365 days,5877,2614,44.48
+City Hotel,Over 365 days,376,193,51.33
+Resort Hotel,0-7 days,8409,504,5.99
+Resort Hotel,8-30 days,5810,1212,20.86
+Resort Hotel,31-90 days,7567,2255,29.8
+Resort Hotel,91-180 days,6670,2137,32.04
+Resort Hotel,181-365 days,5323,1830,34.38
+Resort Hotel,Over 365 days,189,38,20.11

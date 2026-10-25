@@ -1,0 +1,6 @@
+Metric,Value
+Original rows,119390
+Original columns,32
+Duplicate rows removed,31994
+Rows after deduplication,87396
+Columns after deduplication,32

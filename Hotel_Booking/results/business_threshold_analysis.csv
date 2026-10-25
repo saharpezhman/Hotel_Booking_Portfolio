@@ -1,0 +1,6 @@
+﻿policy,threshold,share_contacted_percent,bookings_contacted,true_cancellations_found,false_alerts,cancellations_missed,precision_percent,recall_percent
+Probability threshold,0.3,61.36,8543,3546,4997,229,41.51,93.93
+Probability threshold,0.4,48.23,6715,3265,3450,510,48.62,86.49
+Probability threshold,0.5,41.85,5827,2961,2866,814,50.82,78.44
+Probability threshold,0.6,29.31,4081,2242,1839,1533,54.94,59.39
+Probability threshold,0.7,8.19,1140,721,419,3054,63.25,19.1

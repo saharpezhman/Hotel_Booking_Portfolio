@@ -1,0 +1,4 @@
+﻿policy,capacity_percent,bookings_in_test,bookings_contacted,actual_cancellations_found,precision_percent,share_of_all_cancellations_found_percent,overall_test_cancellation_rate_percent
+Top risk by capacity,10,13922,1393,863,61.95,22.86,27.12
+Top risk by capacity,20,13922,2785,1609,57.77,42.62,27.12
+Top risk by capacity,30,13922,4177,2274,54.44,60.24,27.12

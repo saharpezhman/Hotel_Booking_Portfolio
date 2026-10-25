@@ -1,0 +1,11 @@
+Check,Count
+Rows,87396
+Missing children,4
+Zero adults,385
+Zero-night bookings,651
+Bookings over 30 nights,23
+ADR equal to zero,1778
+ADR below zero,1
+ADR above 1000,1
+Children above 3,1
+Babies above 3,2
